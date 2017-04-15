@@ -1,0 +1,39 @@
+body {
+    padding-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    width: inherit;
+}
+.intro {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(myPic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-message {
+    left: 45%;
+    #background-color: pink;
+    position: absolute;
+    padding-top: 20%;
+    padding-bottom: 40%;
+    overflow: hidden;
+}
+
+#name {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color:rgba(0,0,0,0.2);
+}
+
+hr {
+    width: 30%;
+}
+
+#introduceMyself {
+    line-height: 2;
+}
