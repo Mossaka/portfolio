@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="parallax.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -15,42 +15,68 @@
 <!-- Update 29.9.2015: <head></head> and <body></body> tags are included in this pen for quick copy/paste in case you to try this challenge offline -->
 
 
-<!-- Header -->
-<a name="home"></a>
-<div class="intro-header">
-    <div class="bg-overlay">
+<div class="page-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Jiaxiao Zhou</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Home"> Home</a></li>
+                    <li><a href="#About"> About</a></li>
+                    <li><a href="#About"> Projects</a></li>
+                    <li><a href="#About"> Resume</a></li>
+                    <li><a href="#About"> Contact</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://github.com/Mossaka">
+                            <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+                            Github
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+
+        </div><!-- /.container-fluid -->
+    </nav>
+    <a name="Home"></a>
+    <div class="intro" id="home">
         <div class="container">
-
-
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Infinito Web Design Studio</h1>
-                        <h3>Where Awesomeness Is Brought To Life.</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/Ferreir4Thiago" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/ThiagoFerreir4" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/thiagoferreir4" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                                <a href="http://www.freecodecamp.com/thiagoferreira" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-free-code-camp fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
-                            </li>
-                        </ul>
+                <div class="col-md-8 col-md-offset-4">
+                    <div class="intro-message text-responsive pull-right">
+                        <div id="name">
+                            <h2>Jiaxiao Zhou</h2>
+                            <h4>An Undergraduate CSE Student at UCSD</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
     </div>
-</div>
-<!-- /.intro-header -->
+    <div class="content">
+        <a name="About"></a>
+        <div id="aboutMe">
+            <h1>About Me:</h1>
+        </div>
+        <div id="projects"></div>
+    </div>
 
+
+</div> <!-- page wrapper -->
 </body>
 </html>
