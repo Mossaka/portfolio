@@ -2,6 +2,10 @@ body {
     padding-top: 50px;
     font-family: "Open Sans", sans-serif;
 }
+
+.navbar {
+    width: inherit;
+}
 .intro {
     height: 100vh;
     width: 100%;
@@ -15,7 +19,7 @@ body {
     left: 45%;
     #background-color: pink;
     position: absolute;
-    padding-top: 40%;
+    padding-top: 20%;
     padding-bottom: 40%;
     overflow: hidden;
 }
@@ -28,4 +32,8 @@ body {
 
 hr {
     width: 30%;
+}
+
+#introduceMyself {
+    line-height: 2;
 }
