@@ -1,5 +1,6 @@
 body {
     padding-top: 50px;
+    font-family: "Open Sans", sans-serif;
 }
 .intro {
     height: 100vh;
@@ -11,9 +12,12 @@ body {
 }
 
 .intro-message {
-    position: relative;
+    left: 45%;
+    #background-color: pink;
+    position: absolute;
     padding-top: 40%;
     padding-bottom: 40%;
+    overflow: hidden;
 }
 
 #name {
@@ -22,3 +26,6 @@ body {
     background-color:rgba(0,0,0,0.2);
 }
 
+hr {
+    width: 30%;
+}
