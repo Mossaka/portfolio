@@ -43,19 +43,18 @@ hr {
 }
 
 .transition {
-    height: 500px;
+    height: 100vh;
     width: 100%;
-    background: url(FTC.png) no-repeat fixed center;
+    background: url(transition1.jpg) no-repeat fixed center;
     background-size: cover;
 }
-
 #project2 {
     background-color: #cccccc;
     height: 300px;
 }
 
 .transition2 {
-    height: 500px;
+    height: 100vh;
     width: 100%;
     background: url(transition2.JPG) no-repeat fixed center;
     background-size: cover;
