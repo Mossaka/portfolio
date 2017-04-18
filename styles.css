@@ -1,10 +1,12 @@
 body {
     padding-top: 50px;
     font-family: "Open Sans", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar {
-    width: inherit;
+    width: 100vw
 }
 .intro {
     height: calc(100vh - 50px);
@@ -19,16 +21,24 @@ body {
     margin-right: auto;
     margin-left: auto;
     padding-top: 180px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-right: 10px;
     padding-left: 100px;
 }
-
+#aboutMe {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 #name {
     padding-top: 10%;
     padding-bottom: 10%;
+    padding-left: 30px;
     #background-color:rgba(0,0,0,0.2);
+}
+
+#about_me_text {
+    height: 80vh;
 }
 
 hr {
@@ -39,12 +49,17 @@ hr {
     line-height: 2;
 }
 
+#projects {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 #TODO {
     line-height: 2;
 }
 
 .transition {
-    height: 100vh;
+    height: 700px;
     background: url(transition1.jpg) no-repeat;
     background-size: cover;
 }
@@ -54,7 +69,7 @@ hr {
 }
 
 .transition2 {
-    height: 100vh;
+    height: 700px;
     background: url(transition2.JPG) no-repeat;
     background-size: cover;
 }
