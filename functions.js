@@ -1,4 +1,4 @@
-$(window).scroll(function () {
+/*$(window).scroll(function () {
     var $wScroll = $(this).scrollTop();
 
     $(".intro-message").css({
@@ -9,4 +9,4 @@ $(window).scroll(function () {
     } else {
         $(".intro-message").fadeIn("fast");
     }
-})
+})*/
